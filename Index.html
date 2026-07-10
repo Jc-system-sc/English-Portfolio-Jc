@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>English Portfolio — José</title>
+<meta name="description" content="Portafolio del curso de inglés — 16 semanas, 3 unidades.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ===================== HEADER ===================== -->
+<header>
+  <div class="header-inner">
+    <div class="brand"><span class="dot"></span> JC<span style="color:var(--ink-soft); font-weight:400;"> · Portfolio</span></div>
+    <button class="theme-toggle" id="themeToggle" aria-label="Cambiar tema">
+      <i data-lucide="moon" id="themeIcon"></i>
+    </button>
+  </div>
+</header>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero">
+  <!-- Marca de agua: siluetas de Inglaterra a lo ancho de la pantalla -->
+  <svg class="hero-decor" viewBox="0 0 1600 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <g fill="none" stroke="var(--blue-soft)" stroke-width="2" opacity="0.55">
+      <!-- Big Ben -->
+      <g transform="translate(120,430)">
+        <rect x="-14" y="-150" width="28" height="150"/>
+        <rect x="-22" y="-172" width="44" height="22"/>
+        <rect x="-28" y="-198" width="56" height="16" rx="2"/>
+        <circle cx="0" cy="-228" r="22"/>
+        <line x1="0" y1="-250" x2="0" y2="-270"/>
+      </g>
+      <!-- London Eye -->
+      <g transform="translate(430,470)">
+        <circle cx="0" cy="-90" r="90"/>
+        <line x1="-90" y1="-90" x2="90" y2="-90"/>
+        <line x1="0" y1="-180" x2="0" y2="0"/>
+        <line x1="-64" y1="-154" x2="64" y2="-26"/>
+        <line x1="-64" y1="-26" x2="64" y2="-154"/>
+        <line x1="0" y1="0" x2="-30" y2="30"/>
+        <line x1="0" y1="0" x2="30" y2="30"/>
+      </g>
+      <!-- Tower Bridge -->
+      <g transform="translate(820,470)">
+        <rect x="-160" y="-14" width="320" height="14"/>
+        <rect x="-140" y="-120" width="30" height="120"/>
+        <rect x="110" y="-120" width="30" height="120"/>
+        <rect x="-150" y="-140" width="50" height="22"/>
+        <rect x="100" y="-140" width="50" height="22"/>
+        <line x1="-120" y1="-40" x2="-20" y2="-90"/>
+        <line x1="120" y1="-40" x2="20" y2="-90"/>
+      </g>
+      <!-- Double-decker bus -->
+      <g transform="translate(1180,500)">
+        <rect x="-95" y="-95" width="190" height="95" rx="10"/>
+        <line x1="-95" y1="-48" x2="95" y2="-48"/>
+        <circle cx="-55" cy="6" r="16"/>
+        <circle cx="55" cy="6" r="16"/>
+      </g>
+      <!-- Red phone booth -->
+      <g transform="translate(1440,470)">
+        <rect x="-32" y="-140" width="64" height="140"/>
+        <rect x="-38" y="-156" width="76" height="16"/>
+        <line x1="-32" y1="-40" x2="32" y2="-40"/>
+        <line x1="-16" y1="-140" x2="-16" y2="-40"/>
+        <line x1="16" y1="-140" x2="16" y2="-40"/>
+      </g>
+    </g>
+  </svg>
+
+  <div class="hero-inner">
+    <div class="hero-text">
+      <div class="eyebrow"><i data-lucide="graduation-cap"></i> Curso de Inglés · 16 semanas</div>
+      <h1><span id="typed-text"></span></h1>
+      <p class="sub">Un registro de mi progreso, semana a semana: gramática, vocabulario, tareas y reflexiones a lo largo de tres unidades.</p>
+      <div class="hero-meta">
+        <div class="item"><div class="num">16</div><div class="label">Semanas</div></div>
+        <div class="item"><div class="num">3</div><div class="label">Unidades</div></div>
+        <div class="item"><div class="num">A1–A2</div><div class="label">Nivel</div></div>
+      </div>
+    </div>
+
+    <!-- Polaroids: reemplaza las imágenes en assets/hero/ por tus propias fotos -->
+    <div class="polaroid-stack">
+      <figure class="polaroid p1">
+        <img src="assets/hero/polaroid-3.webp" alt="Foto 1">
+        <figcaption>Music</figcaption>
+      </figure>
+      <figure class="polaroid p2">
+        <img src="assets/hero/polaroid-2.jpg" alt="Foto 2">
+        <figcaption>Favorite food</figcaption>
+      </figure>
+      <figure class="polaroid p3">
+        <img src="assets/hero/polaroid-1.jpg" alt="Foto 3">
+        <figcaption>My city</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONTENIDO ===================== -->
+<main class="wrap">
+  <h2 class="section-title">Unidades del curso</h2>
+  <p class="section-sub">Cada unidad agrupa varias semanas de trabajo. Haz clic para ver las semanas, y luego en una semana para ver el detalle completo.</p>
+  <div class="units" id="unitsContainer"></div>
+</main>
+
+<!-- ===================== MODAL DE SEMANA ===================== -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal">
+    <button class="modal-close" id="modalClose" aria-label="Cerrar"><i data-lucide="x"></i></button>
+    <div class="modal-eyebrow" id="modalEyebrow"></div>
+    <h2 id="modalTitle"></h2>
+
+    <div class="modal-section">
+      <h4><i data-lucide="book-open"></i> Brief Description</h4>
+      <p id="modalDescription"></p>
+    </div>
+
+    <div class="modal-section">
+      <h4><i data-lucide="target"></i> Learning Outcomes</h4>
+      <p id="modalOutcomes"></p>
+    </div>
+
+    <div class="modal-section">
+      <h4><i data-lucide="pencil-line"></i> Grammar Focus</h4>
+      <ul id="modalGrammar"></ul>
+    </div>
+
+    <div class="modal-section">
+      <h4><i data-lucide="list"></i> Vocabulary / Expressions</h4>
+      <div class="tag-list" id="modalVocab"></div>
+    </div>
+
+    <div class="modal-section">
+      <h4><i data-lucide="file-check-2"></i> Homework</h4>
+      <p class="homework-note" id="modalHomework"></p>
+
+      <div class="evidence-viewer">
+        <div class="evidence-tabs" id="evidenceTabs"></div>
+        <div class="evidence-panel active" id="panelPhotos">
+          <div class="carousel" id="carouselRoot"></div>
+        </div>
+        <div class="evidence-panel" id="panelVideo"></div>
+        <div class="evidence-panel" id="panelPdf"></div>
+      </div>
+    </div>
+
+    <div class="modal-section">
+      <h4><i data-lucide="sparkles"></i> Reflection</h4>
+      <div id="modalReflection"></div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  Asignatura: Inglés I · Carrera: Ing de Sistemas · Ciclo: VII - "A" 
+</footer>
+
+<script src="https://unpkg.com/lucide@latest"></script>
+<script src="script.js"></script>
+</body>
+</html>
