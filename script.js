@@ -225,7 +225,7 @@ const weeksData = [
         { "src": "assets/hero/week-10/grammar.png", "caption": "Screen-1" },
       ],
       "video": null,
-      "pdf": { "src": "assets/hero/week-10/how.pdf", "name": "week-7-evidence-JCSC.pdf" }
+      "pdf": { "src": "assets/hero/week-10/how.pdf", "name": "week-10-evidence-JCSC.pdf" }
     },      
     "reflection": ["I learned how to apply grammatical rules like the third person in an exam setting.", "The most difficult part for me was using frequency adverbs correctly in negative sentences.", "The class surveys and interview practices really helped me understand these topics.", "I think I did well constructing sentences about my daily routine.", "I can use this knowledge to continue building my confidence in English."]
   },
@@ -287,7 +287,7 @@ const weeksData = [
         { "src": "assets/hero/week-13/CANT-CAN'T.jpeg", "caption": "Screen-1" },
       ],
       "video": null,
-      "pdf": null
+      "pdf":  { "src": "assets/hero/week-13/use-canorcant.pdf", "name": "week-13-evidence-JCSC.pdf" } 
     },      
     "reflection": ["I learned how to express what I am able to do and what I cannot do yet.", "The most difficult part for me was pronouncing 'can't' correctly.", "The interview practice in pairs helped me feel more comfortable using this modal verb.", "I think I did well listing my abilities related to my professional formation.", "I can use these phrases to highlight my skills during a conversation or meeting."]
   },
