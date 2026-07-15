@@ -17,7 +17,7 @@
    ============================================================ */
 
 const weeksData = [
-  {
+{
     "number": 1,
     "unit": 1,
     "title": "Introducing People",
@@ -44,7 +44,7 @@ const weeksData = [
     "outcomes": "I can use cardinal and ordinal numbers to express dates and personal data, and I can tell the time in various formats during daily situations.",
     "grammar": ["Cardinal numbers (0-100,000)", "Ordinal numbers (1-31)", "Telling the date", "Telling the time (o'clock, half past, quarter)"],
     "vocabulary": ["What time is it?", "A quarter past", "A quarter to", "Half past", "Date of birth", "Phone number"],
-    "homework": "[Edit: Insert your homework evidence here. You can add an image, a document, a link, or a short description of your work.]",
+    "homework": "This week's evidence includes a video recording of my oral presentation on cardinal and ordinal numbers, along with a PDF of my slides, showing how I applied numbers to dates and times.",
     "evidence": {
       "images": null,
       "video": { "src": "assets/hero/week-2/cardinal-ordinal.mp4", "caption": "Video de la exposición" },
@@ -69,7 +69,7 @@ const weeksData = [
 
   "vocabulary": ["What time is it?", "A quarter past / A quarter to", "Half past","To / Past", "Daily routines","Time formats"
   ],
-  "homework": "[Edit: Insert your homework evidence here. You can add an image, a document, a link, or a short description of your work.]",
+  "homework": "This week's evidence includes classroom photos and a video of my presentation about my daily routine, both showing my practice using time expressions like 'quarter to' and 'quarter past'.",
     "evidence": {
       "images": [
         { "src": "assets/hero/week-3/hora.png", "caption": "Screen-1" },
@@ -96,7 +96,7 @@ const weeksData = [
     "outcomes": "I can ask and answer questions about origin and nationality, and use the verb to be to provide personal information about myself and others.",
     "grammar": ["Verb to be (review)", "Wh- Questions (Where...?)", "Countries", "Nationalities"],
     "vocabulary": ["Where are you from?", "Country", "Nationality", "Origin", "I am from...", "He/She is..."],
-    "homework": "[Edit: Insert your homework evidence here. You can add an image, a document, a link, or a short description of your work.]",
+    "homework": "I've attached a classroom photo along with a PDF about famous people and their nationalities, reflecting my practice describing countries of origin.",
     "evidence": {
       "images": [
         { "src": "assets/hero/week-4/comida.png", "caption": "Screen-1" },
@@ -116,7 +116,7 @@ const weeksData = [
     "outcomes": "I can use possessive adjectives in English to describe people and personal belongings in basic communicative situations.",
     "grammar": ["Possessive adjectives (my, your, his, her, its, our, their)", "Descriptive adjectives", "Sentence structure (Subject + Verb + Adjective)", "Noun phrases"],
     "vocabulary": ["My family", "Belongings", "This is my...", "Her/His name is...", "Personal objects", "Beautiful / Friendly"],
-    "homework": "[Edit: Insert your homework evidence here. You can add an image, a document, a link, or a short description of your work.]",
+    "homework": "This week's evidence includes two classroom photos along with a PDF about family members, showing how I practiced possessive adjectives while describing my family.",
     "evidence": {
       "images": [
         { "src": "assets/hero/week-5/posesivos.png", "caption": "Screen-1" },
@@ -137,7 +137,7 @@ const weeksData = [
     "outcomes": "I can use prepositions of place to describe where objects and people are located in everyday situations.",
     "grammar": ["Prepositions of place", "Simple sentence structure", "Location descriptions", "Wh- Questions (Where...)"],
     "vocabulary": ["In front of", "Next to", "Behind", "On the corner", "Location", "Where is...?"],
-    "homework": "[Edit: Insert your homework evidence here. You can add an image, a document, a link, or a short description of your work.]",
+    "homework": "I've included a classroom photo from a locating-objects activity along with a PDF worksheet, which show my practice using prepositions of place.",
     "evidence": {
       "images": [
         { "src": "assets/hero/week-6/Where-is-the-mouse.png", "caption": "Screen-1" },
@@ -157,7 +157,7 @@ const weeksData = [
     "outcomes": "I can use demonstrative pronouns to accurately identify and describe objects in various real-life contexts.",
     "grammar": ["Demonstrative pronouns (this, that, these, those)", "Singular and plural nouns", "Quantity identification", "Object description"],
     "vocabulary": ["This is...", "That is...", "These are...", "Those are...", "Nearby objects", "Identifying items"],
-    "homework": "[Edit: Insert your homework evidence here. You can add an image, a document, a link, or a short description of your work.]",
+    "homework": "This week's evidence includes two classroom photos and a PDF about demonstrative pronouns, reflecting my practice identifying nearby and distant objects.",
     "evidence": {
       "images": [
         { "src": "assets/hero/week-7/guided.png", "caption": "Screen-1" },
@@ -178,7 +178,7 @@ const weeksData = [
     "outcomes": "I can describe daily routines using the present simple tense and correctly apply third-person singular rules.",
     "grammar": ["Present simple", "Third person rules (he/she/it)", "Verbs for daily activities", "Sentence structure"],
     "vocabulary": ["Wake up", "Go to bed", "Have breakfast", "Every day", "Daily activities", "Routine"],
-    "homework": "[Edit: Insert your homework evidence here. You can add an image, a document, a link, or a short description of your work.]",
+    "homework": "I've attached two classroom photos and a video of my second daily-routine presentation, showing my progress using the present simple in the third person.",
     "evidence": {
       "images": [
         { "src": "assets/hero/week-8/Daily.png", "caption": "Screen-1" },
@@ -199,7 +199,7 @@ const weeksData = [
     "outcomes": "I can formulate and answer questions in the present simple tense using the correct auxiliaries during basic conversations.",
     "grammar": ["Auxiliaries (Do / Does)", "Present simple questions", "Negative statements", "Wh- questions (Review)"],
     "vocabulary": ["What do you do?", "Do you...?", "Does he/she...?", "Interview", "Daily activities", "Academic tasks"],
-    "homework": "[Edit: Insert your homework evidence here. You can add an image, a document, a link, or a short description of your work.]",
+    "homework": "This week's evidence includes a classroom photo and a PDF with my interview questions, showing my practice using 'do' and 'does' in the present simple.",
     "evidence": {
       "images": [
         { "src": "assets/hero/week-9/preguntas.png", "caption": "Screen-1" },      ],
@@ -218,7 +218,7 @@ const weeksData = [
     "outcomes": "I can use frequency adverbs in English to describe habits and routines in everyday contexts effectively.",
     "grammar": ["Adverbs of frequency", "Present simple","Question structure ","Sentence construction"],
     "vocabulary": ["How often...?","Always","Usually","Sometimes","Never","Habits and routines"],
-    "homework": "[Edit: Insert your homework evidence here. You can add an image, a document, a link, or a short description of your work.]",
+    "homework": "I've included two classroom photos along with a PDF worksheet on frequency adverbs, reflecting my exam preparation and practice describing habits and routines.",
     "evidence": {
       "images": [
         { "src": "assets/hero/week-10/adverbs.png", "caption": "Screen-1" },
@@ -238,7 +238,7 @@ const weeksData = [
     "outcomes": "I can use the present continuous to describe actions happening right now in everyday contexts.",
     "grammar": ["Present continuous form", "Auxiliaries (am, is, are)", "Verbs with -ing", "Wh- questions in context"],
     "vocabulary": ["What are you doing?", "In the morning", "Actions in progress", "Current activities", "Working", "Studying"],
-    "homework": "[Edit: Insert your homework evidence here. You can add an image, a document, a link, or a short description of your work.]",
+    "homework": "This week's evidence is a PDF document showing my practice describing actions in progress using the present continuous tense.",
     "evidence": {
       "images": null,
       "video": null,
@@ -268,7 +268,7 @@ const weeksData = [
       "video": null,
       "pdf": null
     },     
-    "homework": "[Edit: Insert your homework evidence here. You can add an image, a document, a link, or a short description of your work.]",
+    "homework": "I've attached two classroom photos comparing present simple and present continuous, reflecting my practice contrasting routines with actions happening right now.",
     "reflection": ["I learned how to distinguish between routines and actions happening right now.", "The most difficult part for me was switching between both tenses in one paragraph.", "The collaborative activities helped me practice comparing my routine and my current projects.", "I think I did well explaining my daily habits and what I am doing today.", "I can use both tenses to share more information about my life and plans."]
   },
   {
@@ -280,17 +280,18 @@ const weeksData = [
     "outcomes": "I can use 'can' and 'can't' to express abilities and ask about others' skills in basic contexts.",
     "grammar": ["Can (ability)", "Can't (inability)", "Can you...?", "Question and answer structure"],
     "vocabulary": ["Skills", "Abilities", "Professional training", "Capabilities", "Can you...?", "Strengths"],
-    "homework": "[Edit: Insert your homework evidence here. You can add an image, a document, a link, or a short description of your work.]",
+    "homework": "This week's evidence includes two classroom photos showing my practice expressing abilities and asking about others' skills using 'can' and 'can't'.",
     "evidence": {
       "images": [
         { "src": "assets/hero/week-13/lets.png", "caption": "Screen-1" },
-        { "src": "assets/hero/week-12/CANT-CAN'T.jpeg", "caption": "Screen-1" },
+        { "src": "assets/hero/week-13/CANT-CAN'T.jpeg", "caption": "Screen-1" },
       ],
       "video": null,
       "pdf": null
     },      
     "reflection": ["I learned how to express what I am able to do and what I cannot do yet.", "The most difficult part for me was pronouncing 'can't' correctly.", "The interview practice in pairs helped me feel more comfortable using this modal verb.", "I think I did well listing my abilities related to my professional formation.", "I can use these phrases to highlight my skills during a conversation or meeting."]
   },
+  
   {
     "number": 14,
     "unit": 3,
