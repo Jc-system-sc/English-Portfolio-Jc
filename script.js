@@ -204,7 +204,7 @@ const weeksData = [
       "images": [
         { "src": "assets/hero/week-9/preguntas.png", "caption": "Screen-1" },      ],
       "video": null,
-      "pdf": { "src": "assets/hero/week-9/preguntas.pdf", "name": "week-9-evidence-JCSC.pdf" }
+      "pdf": { "src": "assets/hero/week-9/choose.pdf", "name": "week-9-evidence-JCSC.pdf" }
     },      
     "reflection": ["I learned how to use 'do' and 'does' to ask others about their daily habits.", "The most difficult part for me was using the correct auxiliary for the third person.", "The interview practice with my classmate helped me gain confidence.", "I think I did well constructing both questions and answers during the class.", "I can use these structures to interview people about their lives in real life."]
   },
@@ -284,6 +284,7 @@ const weeksData = [
     "evidence": {
       "images": [
         { "src": "assets/hero/week-13/lets.png", "caption": "Screen-1" },
+        { "src": "assets/hero/week-12/CANT-CAN'T.jpeg", "caption": "Screen-1" },
       ],
       "video": null,
       "pdf": null
@@ -300,6 +301,11 @@ const weeksData = [
     "grammar": ["Descriptive adjectives", "Prepositions of place (review)", "Location description structure", "Sentence organization"],
     "vocabulary": ["City landmarks", "Places", "Description", "My favorite place", "Important locations", "Neighborhood"],
     "homework": "[Edit: Insert your homework evidence here. You can add an image, a document, a link, or a short description of your work.]",
+    "evidence": {
+      "images": null,
+      "video": null,
+      "pdf": null
+    },       
     "reflection": ["I learned how to describe important spots in my city using new descriptive words.", "The most difficult part for me was finding enough adjectives to describe a place.", "The speaking activities helped me organize my ideas before presenting them.", "I think I did well presenting my favorite place in the city to the class.", "I can use this vocabulary to guide someone around my city in the future."]
   },
   {
