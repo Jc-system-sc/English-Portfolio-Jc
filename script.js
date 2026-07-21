@@ -303,9 +303,13 @@ const weeksData = [
     "vocabulary": ["City landmarks", "Places", "Description", "My favorite place", "Important locations", "Neighborhood"],
     "homework": "[Edit: Insert your homework evidence here. You can add an image, a document, a link, or a short description of your work.]",
     "evidence": {
-      "images": null,
+      "images": [
+        { "src": "assets/hero/week-14/place.jpeg", "caption": "Screen-14" },
+        { "src": "assets/hero/week-14/city.jpeg", "caption": "Screen-14" },
+
+      ],
       "video": null,
-      "pdf": null
+      "pdf": { "src": "assets/hero/week-14/MY_FAVORITE_PLACE.pdf", "name": "week-14-evidence-JCSC.pdf" } 
     },       
     "reflection": ["I learned how to describe important spots in my city using new descriptive words.", "The most difficult part for me was finding enough adjectives to describe a place.", "The speaking activities helped me organize my ideas before presenting them.", "I think I did well presenting my favorite place in the city to the class.", "I can use this vocabulary to guide someone around my city in the future."]
   },
