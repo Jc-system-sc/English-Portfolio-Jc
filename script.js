@@ -323,6 +323,11 @@ const weeksData = [
     "grammar": ["Present simple", "Present continuous", "Can / Can't", "Vocabulary integration"],
     "vocabulary": ["Final project", "Oral presentation", "Integration", "Communicative skills", "Reflect", "Progress"],
     "homework": "[Edit: Insert your homework evidence here. You can add an image, a document, a link, or a short description of your work.]",
+    "evidence": {
+      "images": null,
+      "video": null,
+      "pdf": { "src": "assets/hero/week-15/MY_FAVORITE_PLACE_FINAL.pdf", "name": "week-15-evidence-JCSC.pdf" } 
+    },    
     "reflection": ["I learned how to combine everything I studied in the unit for a final task.", "The most difficult part for me was preparing the speech for the final presentation.", "The teacher's feedback and classroom practice helped me improve my presentation skills.", "I think I did well managing my nerves during the oral presentation.", "I can use these skills to present projects in English in my professional life."]
   },
   {
